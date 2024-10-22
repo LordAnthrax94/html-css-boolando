@@ -42,7 +42,7 @@ a:link{
 .headerfix a{  
   color: white;
   margin-right: 10px; 
-  justify-content: flex-startsp; 
+  justify-content: flex-start; 
 }
 
 .headerfix .logo{
@@ -121,9 +121,39 @@ main{
  
   z-index: 98
 } 
-/* .primaria{
-  z-index: 1;
-} */
+
+.quadro .like{ 
+  position: absolute; 
+  color: black;
+  padding: 3px 8px;
+  top: 30;
+  right: 0;
+  z-index: 2;
+}
+
+.quadro .cuoricino{
+  background-color: white;
+  color: black;
+  padding: 3px 8px; 
+  z-index: 2; 
+}
+
+.cuoricino:hover{
+  color:red;
+}
+
+.quadro p{  
+  font-weight: bold;
+}
+
+.prezscont{
+  font-weight: bold;
+  color: red;
+}
+
+.preztot{
+  text-decoration: line-through;
+}
 
 .alternative{
   z-index: -1;
@@ -138,6 +168,30 @@ main{
   display: inline-block;
 }
 
+/* Footer */
 
+.footertop{
+  background-color: rgb(26, 26, 26);
+  height: 70px;
+}
+
+.footerins p{
+  color: white;
+}
+
+.footerins a{
+  color: white;
+  margin-right: 10px; 
+  
+}
+
+.footleft{
+  flex-direction: column;
+}
+
+
+
+
+/* /Footer */
 
 
