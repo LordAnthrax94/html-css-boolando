@@ -74,8 +74,7 @@ main{
   flex-wrap: wrap;
 }
 
-.lista .model{
-  justify-content: space-evenly;  
+.lista .model{  
   width: 33%;   
   padding: 10px;        
 }
@@ -95,8 +94,6 @@ main{
 .interno{
   width: 100%;
   aspect-ratio: 2/2.9;
-
-
 }
 
 .quadro .widget{
@@ -177,27 +174,31 @@ main{
 }
 
 .footerins{
-  justify-content: space-between;
+  justify-content: space-between;     
 }
 
 .footerins a{
   color: white;
-  margin-right: 10px; 
-  justify-content: space-between;
+  margin-right: 10px;
+  margin-top: 20px;  
+} 
+
+.footleft p{
+  font-size: 1.2rem;
 }
 
-.footleft{    
-  flex-direction: column;  
-}
+.loghifoot{
+  flex-wrap: wrap;
+  }
 
-.footright{
-  align-items: center;  
-}
 
-.footright i{ 
-  color: white;
-  
-}
+
+
+
+
+
+
+
 
 
 
