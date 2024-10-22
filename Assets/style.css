@@ -6,3 +6,54 @@
 body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.container{
+  padding: 0 20px;
+  max-width: 1100px;
+  margin: 0 auto;  
+}
+
+.dflex{
+  display: flex;
+}
+
+.headerfix{
+  background-color: rgb(254, 105, 0);
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 50px;
+  width: 100%;   
+}
+
+.headerfix .headerins{
+  height: 50px;
+  align-items: center;    
+}
+
+a:link{
+  text-decoration: none;  
+}
+
+.headerfix a{  
+  color: white;
+  margin-right: 10px; 
+  justify-content: flex-start; 
+}
+
+.headerfix .logo{
+  justify-content: center;
+}
+
+.headerfix .loghini{
+  justify-content: flex-end;
+}
+
+main{
+  padding-top: 50px;
+}
+.lista{
+  background-color: aqua;
+  justify-content: center;
+  align-content: center;
+}
