@@ -173,20 +173,30 @@ main{
 .footertop{
   background-color: rgb(26, 26, 26);
   height: 70px;
+  color: white;
 }
 
-.footerins p{
-  color: white;
+.footerins{
+  justify-content: space-between;
 }
 
 .footerins a{
   color: white;
   margin-right: 10px; 
-  
+  justify-content: space-between;
 }
 
-.footleft{
-  flex-direction: column;
+.footleft{    
+  flex-direction: column;  
+}
+
+.footright{
+  align-items: center;  
+}
+
+.footright i{ 
+  color: white;
+  
 }
 
 
